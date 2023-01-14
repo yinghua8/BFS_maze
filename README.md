@@ -27,3 +27,16 @@ It follows the rules below :
 **Output the path of the maze**
 
 We shall find our path by backtracking the path we've gone through from the ending points. The priority goes from "up", "left", "down", and then "right", the final answer will be output from (14, 14) to (1, 1), finally written into file out_x & out_y.
+
+---
+
+### Format of Input & Output
+![image](https://user-images.githubusercontent.com/71891722/212476997-9474455a-87a6-475d-9d4f-02c9e8ea82a1.png)
+
+![image](https://user-images.githubusercontent.com/71891722/212476984-a49a481d-d45f-40e8-b62b-799ccef22ee2.png)
+![image](https://user-images.githubusercontent.com/71891722/212477005-e9c63d8e-9411-4f3a-96e9-abadc119557f.png)
+
+
+Note : 
+
+Input.txt file represents the maze from left to right, from top to bottom. The first value of file out_x.txt & out_y.txt represent the length of the answer, and the numbers after show the correct position of the X and Y coordinate.
