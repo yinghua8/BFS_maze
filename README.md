@@ -1,1 +1,1 @@
-# BFS_maze
+# BFS Maze Algorithm
